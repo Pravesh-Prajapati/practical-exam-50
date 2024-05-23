@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" /> -->
+    <style>
+       
+    </style>
+</head>
+
+<body style="background-color: rgb(30, 29, 29)">
+    <div class="container">
+        <div>
+            <div>
+                <h1 style="text-align: center;">Items</h1>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="" style="display: block; margin-bottom: 5px;">RECIPE</label>
+                <input type="text" name="" id="recipe" placeholder="Recipe"
+                    style="border-radius: 10px; border: 1px solid transparent; box-shadow: 1px 1px 2px 2px #999696;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="" style="display: block; margin-bottom: 5px;">TITLE</label>
+                <input type="text" name="" id="title" placeholder="Title"
+                    style="border-radius: 10px; border: 1px solid transparent; box-shadow: 1px 1px 2px 2px #999696;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="" style="display: block; margin-bottom: 5px;">INGREDIANTS</label>
+                <input type="text" name="" id="ingrediants" placeholder="Ingrediants"
+                    style="border-radius: 10px; border: 1px solid transparent; box-shadow: 1px 1px 2px 2px #999696;">
+            </div>
+            <div style="margin-bottom: 15px; display: none;" >
+                <label for="" style="display: block; margin-bottom: 5px;"></label>
+                <input type="text" name="" id="index" placeholder="index"
+                    style="border-radius: 10px; border: 1px solid transparent; box-shadow: 1px 1px 2px 2px #999696;">
+            </div>    
+        </div>
+        <div>
+            <p id="para"></p>
+        </div>
+        <!-- ======================search -->
+        <!-- <div>
+          <input type="text" name="" id="searchinput" placeholder="search-Recipe">
+          <button type="submit" onclick="searchitem()" id="searchbtn">search</button> 
+        </div> -->
+        <!-- ===========================search -->
+        <div style="display: flex; justify-content: center; gap: 10px;">
+            <button
+                style="padding: 10px 30px; border-radius: 10px; box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);border: 0px; cursor: pointer;"
+                onclick="save()">save</button>
+                <button
+                style="padding: 10px 30px; border-radius: 10px; box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);border: 0px; cursor: pointer;"
+                onclick="update()">update</button>
+        </div>
+    </div>
+    <div id="container2" style="gap: 10px;">
+        <!-- <div id="sec" > -->
+            <!-- <div style="color: rgb(2, 2, 2); background-color:white; border-radius: 20px; padding: 10px 20px;">
+                <div>
+                    <h2 style="color: blue;">Modal Name</h2>
+                    <h3>j2</h3>
+                </div>
+                <div>
+                    <h2 style="color: blue;">Mobile Name</h2>
+                    <h3>samsung</h3>
+                </div>
+                <div>
+                    <h2 style="color: blue;">Yourname</h2>
+                    <h3>pravesh</h3>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

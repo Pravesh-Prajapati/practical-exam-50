@@ -1,0 +1,22 @@
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(163, 228, 228);
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px 10px rgb(129, 127, 127);
+    /* box-shadow: 1px 1px 10px 10px rgb(102, 101, 101); */
+}
+
+#container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sec {
+    width: 30%;
+}
